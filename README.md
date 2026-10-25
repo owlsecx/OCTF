@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-CTF Swiss Knife
+OCTF is a CTF Swiss-army tool that bundles the encodings, classical-cipher attacks and analysis helpers commonly needed during capture-the-flag challenges. It handles base encodings, URL/HTML, hex/string/binary conversions, JWT decoding, magic-byte identification, ROT and XOR brute force, frequency analysis and hash identification. Several operations are available non-interactively for quick one-liners.
 
 ---
 
 ## ✨ Features
 
-- CTF toolkit — encodings, JWT, ROT/XOR brute, Morse, Vigenère
+- Base, URL/HTML, hex, string and binary encoding/decoding
+- JWT decoding and magic-byte file identification
+- ROT-N and XOR brute force
+- Frequency analysis and hash-type identification
+- Morse encoding and quick one-shot CLI operations
+- Safe offline demo mode
 
 ---
 
@@ -38,7 +43,10 @@ CTF Swiss Knife
 ## 🚀 Usage
 
 ```bash
-./OCTF
+./OCTF --rot "Uryyb"
+./OCTF --hashid 5f4dcc3b5aa765d61d8327deb882cf99
+./OCTF --morse "SOS"
+./OCTF --help
 ```
 
 ---
